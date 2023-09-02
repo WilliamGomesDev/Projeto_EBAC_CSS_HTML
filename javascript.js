@@ -1,6 +1,6 @@
 /*==== Navbar ====*/
-const menu = document.querySelector (' .menu');
-const menuBtn = document.querySelector ( '.menu-btn');
+const menu = document.querySelector ('.menu');
+const menuBtn = document.querySelector ('.menu-btn');
 
 //Toggle open/close menu
 menuBtn.addEventListener  ('click', () => {
@@ -23,25 +23,25 @@ let id = 0;
 
 //Image Paths
 const images = [
-   './Imagens/RetratoE.jpeg',
-   './Imagens/RetratoA.jpeg',
-   './Imagens/RetratoB.jpeg',
-   './Imagens/RetratoC.jpeg',
-   './Imagens/RetratoD.jpeg',
+   'Imagens/RetratoC.jpeg',
+   'Imagens/FotoB.jpeg',
+   'Imagens/FotoD.jpeg', 
+   'Imagens/FotoE.jpeg',
+   'Imagens/FotoG.jpeg',
 ];
 
 //Theme Colors
 const colors = [
-    '#feb57b',
-    '#ffa901',
-    '#b5162e',
-    '#27223f',
-    '#468cc2',
+    '#a6a6a6,',
+    '#655247',
+    '#6b3b1e',
+    '#111f0b',
+    '#233c15',
 ];
 
 function retrigAnim() {
     //Retrigger Animations
-    for(let i =0; i < anima.length; i++) {
+    for(let i =0; i < anim.length; i++) {
         anim[i].style.animation = 'none';
         anim[i].offsetHeight;
         anim[i].style.animation = null;
