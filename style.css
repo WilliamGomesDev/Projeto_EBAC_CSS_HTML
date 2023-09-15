@@ -1,8 +1,8 @@
 @media screen and (max-widht: 1000px) {
     .menu-btn {
         display: block;
-} 
-
+    }
+    
 nav .menu {
     background: #fff;
     position: absolute;
